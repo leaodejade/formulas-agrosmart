@@ -1,0 +1,18 @@
+✨ Olá! Bem-vindo ao AJUDAGRO.
+
+Organizei os arquivos em 3 pastas ("gavetas") para facilitar o uso para quem não é da área de programação:
+
+📂 1 - Planilhas
+Esta é a pasta onde você vai colocar os relatórios com os exames do solo! Eu deixei um arquivo ("modelo_planilha_solo.csv") com algumas simulações. 
+Como usar: Você pode abrir esse arquivo no Excel ou Numbers e colocar ali os números da sua análise de solo real.
+
+📂 2 - Codigo do Sistema
+Esses são os "motores" do sistema. É aqui que está a mágica.
+- ajudagro.py: O cérebro do programa que lê a sua planilha e faz os cálculos.
+- teste_do_sistema.py: Um verificador automático para garantir que a matemática está funcionando.
+
+📂 3 - Documentacao e Formulas
+Aqui dentro você encontra o arquivo com as explicações matemáticas completas. Ele detalha exatamente como as recomendações de calcário, adubo e gesso foram calculadas, apontando os livros de agronomia de onde vieram (como IAC, Embrapa, etc).
+
+▶️ COMO USAR:
+Basta abrir a pasta "2 - Codigo do Sistema" e executar o arquivo "ajudagro.py". Ele vai te perguntar automaticamente o nome da planilha que você deixou na pasta "1 - Planilhas" e te mostrará o resultado para cada talhão!
